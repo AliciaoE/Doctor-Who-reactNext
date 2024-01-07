@@ -1,0 +1,79 @@
+/* contacto.module.css */
+
+.imagenesContainer {
+  margin-right: 20px;
+  position: relative;
+  margin-left: 10%;
+}
+
+.imagenPer {
+  width: 24%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.imagenResis {
+  width: 39%;
+  height: auto;
+  position: absolute;
+  left: 18%;
+ 
+}
+.imagenVenc {
+  width: 27%;
+  height: auto;
+  position: absolute;
+  top:255px;
+  left: 3%;
+}
+
+.tituloContacto {
+  display: flex;
+  justify-items: auto;
+  font-size: 4rem;
+  text-align: center;
+  margin-left: 8%;
+  margin-bottom: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .imagenesContainer{
+    position: absolute;
+
+  }
+
+.tituloContacto{
+font-size: 2.5rem;
+text-align: center;
+display:flex;
+margin-left:10%;
+margin-top: -5%;
+padding: 7%;
+}
+
+.imagenPer {
+  width: 15.20594rem;
+  height: 15.20594rem;
+  position: relative;
+  top:-30px;
+  left:1px;
+}
+
+.imagenResis {
+  width: 18.74206rem;
+  height: 18.74206rem;
+  transform: rotate(-12.602deg);
+  position: relative;
+  bottom:200px;
+  left: 45%;
+
+}
+
+.imagenVenc {
+  width: 22.4375rem;
+  height: 12.875rem;
+  position: absolute;
+
+}
+}

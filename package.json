@@ -1,5 +1,5 @@
 {
-  "name": "doctor-who-reactnext",
+  "name": "doctorw",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,4 +13,5 @@
     "react-dom": "^18",
     "next": "14.0.4"
   }
+  
 }

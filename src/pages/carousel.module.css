@@ -1,0 +1,66 @@
+
+.my-carousel {
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+  
+  
+  }
+  .my-carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  .my-carousel-title{
+  font-size: 4rem;
+  position: absolute;
+  left: 15%;
+  top: 27%;
+  }
+  .my-carousel-button{
+    background-color: #FFC67E;
+    min-width: 130px;
+    height: 45px;
+    padding: 5px 80px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+  left: 15%;
+  top: 50%;
+  font-size: 1.6rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    .my-carousel {
+      width: 600%;
+      height: auto;
+    }
+  
+    .my-carousel-image {
+      width: 300%; /* Ajusta el ancho según tus necesidades */
+      height: auto; /* Ajusta la altura según tus necesidades */
+      display: flex;
+      margin-left:-90%
+  
+    }
+  
+    .my-carousel-title{
+      font-size: 2.5rem;
+      left: 5%;
+      top: 37%;
+      
+      }
+  
+      .my-carousel-button{
+      padding: 2%;
+      left: 5%;
+      top: 50%;
+      height: 8%;
+      width: 45%;
+      text-align: center;
+      font-size: 1.6rem;
+      }
+  }
+  

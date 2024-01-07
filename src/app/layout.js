@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   const router = useRouter();
 
   const handleSearch = (searchTerm) => {
-    // Navegar a la nueva página de búsqueda programáticamente
+
     const searchUrl = `/busqueda/busqueda?searchTerm=${encodeURIComponent(searchTerm)}`;
     router.push(searchUrl);
   };
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.layoutContainer}>
       <Navbar onSearch={handleSearch} />
-     
+
       <div className={styles.contentContainer}>
         {children}
       </div>

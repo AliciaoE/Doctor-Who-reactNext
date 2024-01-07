@@ -22,38 +22,37 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Mostrar la información en la consola
     console.log('Form Data:', formData);
 
-    // Mostrar una alerta en la web
+
     alert('Su mensaje ha sido enviado correctamente');
 
-    // Limpiar los campos del formulario
+
     setFormData(initialState);
   };
 
   return (
     <div className={styles.ContactFormContainer}>
-    <form className={styles.ContactForm} onSubmit={handleSubmit}>
-    
-      <label>
-        <input className={styles.respuestaForm} type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Nombre*" />
-      </label>
-      <br />
-      <label>
-        <input className={styles.respuestaForm} type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email*" />
-      </label>
-      <br />
-      <label>
+      <form className={styles.ContactForm} onSubmit={handleSubmit}>
 
-      <label>
-  <textarea
-    className={styles.mensajeForm} name="message" value={formData.message} onChange={handleChange} placeholder="Mensaje*"/>
-</label>
-      </label>
-      <br />
-      <button className={styles.botonForm} type="submit">Send</button>
-    </form>
+        <label>
+          <input className={styles.respuestaForm} type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Nombre*" />
+        </label>
+        <br />
+        <label>
+          <input className={styles.respuestaForm} type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email*" />
+        </label>
+        <br />
+        <label>
+
+          <label>
+            <textarea
+              className={styles.mensajeForm} name="message" value={formData.message} onChange={handleChange} placeholder="Mensaje*" />
+          </label>
+        </label>
+        <br />
+        <button className={styles.botonForm} type="submit">Send</button>
+      </form>
     </div>
   );
 };

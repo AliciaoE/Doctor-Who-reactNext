@@ -42,12 +42,12 @@ margin-left: 3%;
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+    margin-bottom: 20px; 
 
   }
 
   .text-container {
-    text-align: left; /* Alinea el texto a la izquierda en la versión móvil */
+    text-align: left; 
     line-height: 1.5;
  
   }

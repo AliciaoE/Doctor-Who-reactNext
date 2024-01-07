@@ -1,7 +1,6 @@
 // components/DoctorList.js
 import React from 'react';
-import styles from '../styles/doctor-list.module.css';
-
+import styles from '../pages/doctores/doctores.module.css';
 
 const DoctorList = ({ doctorsData }) => {
   const doctors = Array.isArray(doctorsData.doctors) ? doctorsData.doctors : [];
@@ -11,7 +10,6 @@ const DoctorList = ({ doctorsData }) => {
     window.location.href = 'https://www.doctorwho.tv/';
   };
 
-  
 
   return (
     

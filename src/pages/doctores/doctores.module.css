@@ -1,0 +1,73 @@
+.tituloDoctores {
+  font-size: 4rem;
+  margin: 3%;
+}
+.doctor-list-container {
+  display: flex;
+margin-left: 3%;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.doctor-card {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+}
+
+.doctor-image {
+  width: 85%;
+  height: 55%;
+}
+
+.text-container {
+  line-height: 2.5; 
+}
+
+.botonMas {
+  background-color: #FFC67E;
+  color: black;
+  min-width: 130px;
+  height: 45px;
+  padding: 5px 80px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #101010;
+  margin-top: 3%;
+}
+
+@media (max-width: 767px) {
+  .doctor-card {
+    width: auto; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+
+  }
+
+  .text-container {
+    text-align: left; /* Alinea el texto a la izquierda en la versión móvil */
+    line-height: 1.5;
+ 
+  }
+
+  .doctor-image {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .doctor-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
+

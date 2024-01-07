@@ -1,4 +1,4 @@
-
+// Navbar.js
 import React, { useState } from 'react';
 import Link from 'next/link';
 import SearchBar from './SearchBar';

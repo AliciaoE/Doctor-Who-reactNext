@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
     // Verifica si la tecla presionada es "Enter"
     if (event.key === 'Enter') {
       onSearch(query);
-    } 
+    }
   };
 
   return (

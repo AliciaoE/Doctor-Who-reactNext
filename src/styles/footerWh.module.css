@@ -1,6 +1,6 @@
 .footerWh {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between; /* Esto separará los elementos al principio y al final */
     align-items: center;
     padding: 1%;
    

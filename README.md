@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Doctor Who Landing Page
 
-## Getting Started
+¡Bienvenidos a la Aventura del Doctor! ¡Explora el fascinante universo de Doctor Who a través de nuestra nueva landing page desarrollada con React.js y Next.js! Esta emocionante experiencia te sumergirá en el misterioso mundo de los doctores, viajes en el tiempo y criaturas alienígenas.
 
-First, run the development server:
+🚀 Objetivo Nuestro principal objetivo es ofrecer una experiencia única a los fanáticos de Doctor Who, combinando tecnologías modernas como React.js y Next.js para crear una web dinámica y adaptativa.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🛠 Tecnologías Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+React.js: Framework utilizado para la creación de componentes funcionales.
+JavaScript: Implementación de funcionalidades interactivas para proporcionar una experiencia única.
+Next.js: Potenciando el enrutamiento y la escalabilidad de la aplicación.
+CSS: Estilos para dar vida y personalidad al diseño.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+💻 Dispositivos y Estilos
+Hemos asegurado que nuestra landing page sea accesible desde cualquier dispositivo, con breakpoints diseñados para una visualización óptima tanto en escritorio como en móviles.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🎨 Diseño Inspirador
 
-## Learn More
+Nos hemos inspirado en la esencia única de Doctor Who para crear un diseño fiel a la maqueta proporcionada. El uso de imágenes vibrantes y un carrusel dinámico captura la esencia de la serie.
 
-To learn more about Next.js, take a look at the following resources:
+🌌 Explora a los Doctores
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Descubre la asombrosa lista de doctores a lo largo de las eras. Haz clic en "Ver más" para obtener información detallada y sumérgete en el vasto universo de Doctor Who.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🔍 Buscador Inteligente
 
-## Deploy on Vercel
+¿Buscas a tu doctor favorito? Nuestro buscador te permite encontrar doctores por nombre o actor, ofreciendo una navegación fácil y rápida.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📬 Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Explora la página de contacto, completa el formulario y sé parte de la aventura. Al enviar tu mensaje, recibirás una alerta confirmando que tu mensaje ha sido enviado correctamente.
+
+🌐 Contexto del Proyecto Este proyecto fue concebido a solicitud de una prestigiosa cadena de televisión en Inglaterra. La tarea era crear la página web en español de Doctor Who, utilizando React.js y Next.js para garantizar su escalabilidad futura.
+
+🚀 ¡Aventúrate en el Tiempo y el Espacio! Sumérgete en la experiencia Doctor Who a través de nuestra landing page. ¡Esperamos que disfrutes explorando el universo y los secretos que ofrece esta icónica serie!
+
+![Pagina de Inicio](public/images/Home-2.png)
+![Listado de doctores](public/images/Doctors.png)
+![pagina de contacto](public/images/Contacto.png)

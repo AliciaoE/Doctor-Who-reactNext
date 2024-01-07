@@ -105,10 +105,10 @@ list-style: none;
     padding: 5px;
     background-color: rgba(4, 5, 33, 1);
     position: absolute;
-    margin-top: 96%;
+    margin-top: 94%;
     width: 100%;
     z-index: 1;
-    background-color: blueviolet;
+
   }
   
   .social{

@@ -1,0 +1,120 @@
+
+.myParagraph {
+  color: rgb(247, 242, 242);
+  font-size: 1.4rem;
+  display: flex;
+  width: 150%;
+  margin-left: 35%;
+
+}
+
+
+
+.logoAndSearchBar{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 25%;
+  margin-left: 15%;
+}
+
+.logo {
+  display: flex;
+  width: 11.99519rem;
+  height: 12.29031rem;
+  z-index: 1;
+}
+.menuIzquierda {
+  display: none;
+}
+.menuDerecha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap:5%
+
+}
+
+.social{
+display: flex;
+justify-content: end;
+margin-left: 20%;
+gap:15%;
+list-style: none;
+
+}
+
+.mobileMenuIcon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.Ordenador{
+  display: flex;
+    align-items: center;
+
+
+}
+
+/* Estilos específicos para dispositivos móviles usando Media Queries */
+@media only screen and (max-width: 768px) {
+
+  .logoAndSearchBar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+
+  }
+
+  .myParagraph{
+    font-size: 2rem;
+    line-height:0.5%;
+    display: flex;
+    margin-left: 0%;
+  }
+  .logo{
+    display: none;
+
+  }
+  .logoMob{
+    width: 93.62px;
+    Height :95.92px;
+    
+  }
+  .menuDerecha {
+    display: none;
+    
+  }
+
+  .menuIzquierda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  margin:5%;
+    font-size: 2.5rem;
+
+  }
+  .showOnMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgba(4, 5, 33, 1);
+    position: absolute;
+    margin-top: 96%;
+    width: 100%;
+    z-index: 1;
+    background-color: blueviolet;
+  }
+  
+  .social{
+display: flex;  
+flex-direction:row;
+justify-content:flex-end;
+margin-bottom: 5%;
+margin-top: 20%;
+margin-left: 0%;
+  }
+}
+

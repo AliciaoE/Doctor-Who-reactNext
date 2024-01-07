@@ -1,0 +1,118 @@
+
+.tituloConoce{
+
+font-family: Lato;
+font-size: 3rem;
+line-height: normal;
+width: 47.1875rem;
+text-align: center;
+margin-bottom: 5%;
+margin-top: 0%;
+}
+.conoceA{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 0%;
+}
+.textConocea{
+margin-top: -30%;
+}
+
+.parrafoConoce{
+    position: relative;
+    width: 65%; 
+    height: auto;
+    text-align:center;
+    margin-left: 13%;
+    font-size: 1.6rem;
+    margin-bottom: 3%;
+    
+}
+.imgConoce{
+display: flex;
+align-items: center;
+width: 37.875rem;
+height: 50.875rem;
+margin-right: 5%;
+margin-top: 0%;
+
+}
+.resistenciaConoce{
+    display: flex;
+    width: 36.0625rem;
+    height: 36.0625rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.persistenciaConoce
+{
+bottom: 500px;
+width: 30.0625rem;
+height: 30.0625rem;
+position: relative;
+}
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        right: 200px;
+        z-index: -1; /* Coloca la imagen detrás de otros elementos */
+        margin-left: 40%;
+        margin-top: 10%;
+      }
+        @media only screen and (max-width: 768px) {
+            .conoceA {
+                flex-direction: column;
+             
+              }
+
+            .imgConoce {
+            width: 19.125rem;
+            height: auto;
+            top: 170px;
+            margin: 0;
+            position: absolute;
+            z-index: 1;
+            }
+            .resistenciaConoce{
+            display: flex;
+            width: 25.46544rem;
+            height: 25.46544rem;
+            position:absolute;
+            left:6px;
+            top:15px;
+            left: 3px;
+            }
+            .persistenciaConoce{
+            position:absolute;
+            top: 475px;
+            width: 20.19681rem;
+            height: 20.19681rem;
+            transform: rotate(-30deg);
+            right: 30%;
+            z-index: 0;
+            }
+            .parrafoConoce {
+
+             width: 75%;
+             position: relative;
+             top: 300px;
+             margin-bottom:100%;
+             margin-top: 70%;
+             font-size: 1.4rem;
+            }
+            .tituloConoce{
+            display: flex;
+                margin-left: 15%;
+                align-items: center;
+                text-align: center;
+                margin-top: 30%;
+                width: 50%;
+                font-size: 2.6rem;
+            }
+
+          }

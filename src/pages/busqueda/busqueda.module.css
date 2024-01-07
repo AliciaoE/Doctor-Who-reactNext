@@ -1,0 +1,26 @@
+.tituloBusqueda{
+    font-size: 4rem;
+}
+
+/* SearchBar.module.css */
+
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .searchIcon {
+    margin-right: 5px; /* Ajusta el espacio entre el icono de búsqueda y el texto según tus preferencias */
+    cursor: pointer;
+
+  }
+  
+  .searchInput {
+ 
+    background-color: rgba(4, 5, 33, 1);
+    color: #e3e7ed;
+ 
+
+  }
+  
